@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page Not Found</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .error-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+      gap: 1rem;
+    }
+    .error-code {
+      font-size: 6rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .error-msg {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .back-link:hover { background: var(--accent-dim); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="error-container">
+      <div class="error-code">404</div>
+      <p class="error-msg">Oops — this page doesn't exist.</p>
+      <a class="back-link" href="/">← Back to Home</a>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Kailash Badu · Hosted on AWS S3 · Provisioned with Terraform</p>
+  </footer>
+</body>
+</html>

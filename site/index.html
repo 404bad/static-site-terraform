@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kailash Badu — DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="avatar">KB</div>
+      <div>
+        <h1>Kailash Badu</h1>
+        <p class="title">DevOps Engineer</p>
+        <p class="location">📍 Kathmandu, Nepal</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a DevOps engineer passionate about cloud infrastructure, automation, and CI/CD pipelines.
+        I work with AWS, Docker, Terraform, and GitHub Actions to build reliable, scalable systems.
+        Currently deepening my expertise in Infrastructure as Code and container orchestration.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">☁️</span>
+          <h3>Cloud</h3>
+          <p>AWS EC2, S3, RDS, VPC, IAM, CloudFront, CodePipeline</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🐳</span>
+          <h3>Containers</h3>
+          <p>Docker, Docker Compose, multi-stage builds, ECR</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">⚙️</span>
+          <h3>IaC</h3>
+          <p>Terraform, remote state, state locking, modules</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🔄</span>
+          <h3>CI/CD</h3>
+          <p>GitHub Actions, AWS CodeBuild, CodeDeploy, CodePipeline</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🐧</span>
+          <h3>Linux</h3>
+          <p>Ubuntu, Bash scripting, systemd, SSH, networking</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">📦</span>
+          <h3>Version Control</h3>
+          <p>Git, GitHub, branching strategies, pull requests</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>BankApp on AWS</h3>
+          <p>Deployed a Spring Boot banking application on EC2 with Docker Compose, RDS MySQL, and phpMyAdmin. Configured security groups, IAM roles, and environment variables.</p>
+          <div class="tags">
+            <span>AWS EC2</span><span>Docker Compose</span><span>RDS</span><span>Spring Boot</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>CI/CD with GitHub Actions</h3>
+          <p>Built full dev/prod CI/CD pipelines for a Pokémon app — pushing images to Docker Hub and Amazon ECR, deploying to EC2 via SSH, and hosting frontend on S3 + CloudFront.</p>
+          <div class="tags">
+            <span>GitHub Actions</span><span>ECR</span><span>S3</span><span>CloudFront</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Static Site on S3 with Terraform</h3>
+          <p>Provisioned an S3 static website hosting pipeline using Terraform with remote state in S3 and state locking via DynamoDB. Full IaC — zero manual console clicks.</p>
+          <div class="tags">
+            <span>Terraform</span><span>S3</span><span>IaC</span><span>DynamoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="https://github.com/kaibad" target="_blank">
+          <span>🐙</span> github.com/kaibad
+        </a>
+        <a href="mailto:kailash@example.com">
+          <span>✉️</span> kailash@example.com
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Kailash Badu · Hosted on AWS S3 · Provisioned with Terraform</p>
+  </footer>
+
+</body>
+</html>
