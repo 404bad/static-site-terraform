@@ -6,9 +6,7 @@ locals {
     ManagedBy   = "Terraform"
   }
 
-  # MIME type map — tells S3 the correct Content-Type for each file extension.
-  # Without this, S3 serves everything as binary/octet-stream and browsers
-  # download the files instead of rendering them.
+  # MIME type 
   mime_types = {
     "html" = "text/html"
     "css"  = "text/css"

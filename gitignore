@@ -9,7 +9,7 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
-# Secrets — uncomment if your tfvars contain passwords/keys
+# Secrets — uncomment if tfvars contain passwords/keys
 # terraform.tfvars
 
 # OS
